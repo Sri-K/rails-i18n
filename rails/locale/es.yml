@@ -195,5 +195,7 @@ es:
     errors:
       <<: *errors
   activerecord:
-    errors:
+    attributes:
+      Community: "Comunidad"
+        title: "titulo"
       <<: *errors
